@@ -24,3 +24,6 @@ sudo cp cfortunes/* /usr/share/games/cfortunes/
 sudo apt -y install pandoc iptables moreutils
 cp .bash_aliases $HOME/.bash_aliases
 cp scripts/renew_tls.sh $HOME/.renew_tls.sh
+mkdir -p ~/.config/nvim
+cp init.lua ~/.config/nvim
+
