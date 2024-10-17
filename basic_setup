@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 npm config set sign-git-tag true
 git config --global gpg.format ssh
 git config --global commit.gpgSign true
