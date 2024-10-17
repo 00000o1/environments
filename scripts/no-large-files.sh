@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Set the maximum file size limit to 2 MB
 MAX_FILE_SIZE=2097152
