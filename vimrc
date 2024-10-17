@@ -82,6 +82,8 @@ set mouse-=a
 set laststatus=2
 set ruler
 
+set backspace=indent,eol,start
+
 au BufRead,BufNewFile Makefile,makefile,GNUmakefile set filetype=make
 augroup Makefile
   autocmd!
